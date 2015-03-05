@@ -106,8 +106,6 @@ input{
     width: 100%;
     border-top: 6px solid #047d78;
     background: #2d2d2d;
-    position: absolute;
-    bottom: 0;
 }
 #footer_info{
     width: 742px;
