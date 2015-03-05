@@ -1,0 +1,171 @@
+#header_content ul li.home a{
+    background: #54be39;
+}
+#main{
+	width: 100%;
+}
+#slider{
+    height: 522px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 50px;
+}
+.banner { 
+	position: relative; 
+	overflow: auto; 
+}
+.banner ul{
+	float: left;
+}
+.banner ul li { 
+	float: left; 
+}
+.banner .dots {
+	width: 120px;
+	position: absolute;
+	right: 0px;
+	bottom: 20px;
+	left: 0px;
+	margin: 0 auto;
+}
+.banner .dots li.active {
+	background: #fff;
+	opacity: 1;
+}
+.banner .dots li {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin: 0 4px;
+	text-indent: -999em;
+	border: 2px solid #fff;
+	cursor: pointer;
+	opacity: .4;
+	border-radius: 100%;
+	-webkit-transition: background .5s, opacity .5s;
+	-moz-transition: background .5s, opacity .5s;
+	transition: background .5s, opacity .5s;
+}
+/*start of the main_center*/
+#main_center{
+	width: 940px;
+	margin: 0 auto;
+}
+#onestep,#twostep,#threestep{
+	border-top: 1px solid #a0a0a0;
+	margin-bottom: 20px;
+}
+.center_title{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 30px;
+	font-family: "Audiowide";
+	padding: 0 30px 0 0;
+	margin-top: -22px;
+	background: #fff;
+}
+#somethingNew{
+	margin-bottom: 50px;
+	padding: 44px 0 0 0;
+}
+.news{
+	display: inline-block;
+	width: 436px;
+	padding: 0 30px 0 0;
+	margin-bottom: 20px;
+}
+.news:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.new_date{
+	text-align: center;
+	width: 38px;
+	border-right: 1px solid #858585;
+	padding: 0 2px 0 0;
+	float: left;
+}
+.new_date span{
+	font-size: 14px;
+	color: #2c2c2c;
+}
+.new_date p{
+	font-size: 24px;
+	color: #58ca3b;
+	font-weight: bolder;
+}
+.new_content{
+	display: inline-block;
+	width: 370px;
+	margin-left: 22px;
+}
+.new_content p span{
+	color: #58ca3b;
+	padding-right: 18px;
+}
+.new_content p{
+	font-size: 14px;
+	display: inline-block;
+	float: left;
+	color: #000;
+	line-height: 24px;
+}
+.many_person{
+	margin: 15px 0 50px 0;
+}
+.person{
+	width: 232px;
+	margin: 15px 0;
+	display: inline-block;
+}
+.person img{
+	width: 74px;
+	height: 74px;
+}
+.person_info{
+	display: inline-block;
+	vertical-align: bottom;
+	height: 70px;
+	line-height: 20px;
+	margin-left: 14px;
+}
+.person_name{
+	font-size: 14px;
+	margin-right: 10px;
+}
+.person_time{
+	color: #5d5d5d;
+}
+.person_info p{
+	color: #5d5d5d;
+}
+.person_info a{
+	color: #0089de;
+}
+#threestep table{
+	text-align: center;
+	margin-top: 30px;
+}
+#threestep table tr{
+	height: 220px;
+}
+#threestep table tr td{
+	padding: 0 20px;
+	vertical-align: top;
+	width: 192px;
+}
+#threestep table img{
+	width: 104px;
+	height: 140px;
+	border: 1px solid #d4d4d4;
+}
+#threestep table h5{
+	margin-top: 10px;
+	color: #000;
+}
+#threestep table p{
+	color: #ababab;
+	margin-top: 6px;
+}
+/*end of the main_center*/

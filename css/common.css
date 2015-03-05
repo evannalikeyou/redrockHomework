@@ -1,0 +1,153 @@
+body{
+    line-height:1.4;
+    font-family:"Microsoft YaHei UI";
+    font-size: 12px;
+    background: url(../img/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+input,textarea,select{
+    font-size:100%;    
+    font-family:inherit;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
+    margin:0;
+}
+h4,h5,h6{
+    font-size:1em;
+}
+ul,ol{
+    padding-left:0; 
+    list-style-type:none;
+}
+img{
+	border:0;
+}
+a{
+    text-decoration: none;
+}
+input{
+    margin: 0;
+}
+@font-face {
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Audiowide'), 
+    local('Audiowide-Regular'), 
+    url(Audiowide.woff2) format('woff2'), 
+    url(Audiowide.woff) format('woff');
+}
+/*the start of the header*/
+#header{
+    width: 100%;
+    background: #222222;
+    border-bottom: 1px solid #000;
+    box-shadow: 0 2px 5px #434040;
+}
+#header_content{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+#header_content img{
+    vertical-align: middle;
+}
+#header_content ul{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+#header_content ul li{
+    float: left;
+}
+#header_content ul li a{
+    display: inline-block;
+    font-family: "Audiowide";
+    font-size: 28px;
+    color: #fff;
+    padding: 26px 10px 16px 10px;
+}
+#header_content ul li a img{
+    vertical-align: middle;
+}
+#header_content ul li.home a:hover{
+    background: #54be39;
+}
+#header_content ul li.tesk a:hover{
+    background: #0282d1;
+}
+#header_content ul li.rank a:hover{
+    background: #c00202;
+}
+#header_content ul li.more a:hover{
+    background: #ebc129;
+}
+#header_content p{
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -7px;
+}
+#header_content p  a{
+    display: inline-block;
+    color: #dcdcdc;
+    margin-left: 10px;
+}
+#header_content p a:hover{
+    color: #fff;
+}
+/*the end of the header*/
+/*the start of the footer*/
+#footer{
+    width: 100%;
+    border-top: 6px solid #047d78;
+    background: #2d2d2d;
+    position: absolute;
+    bottom: 0;
+}
+#footer_info{
+    width: 742px;
+    margin: 0 auto;
+    padding: 26px 20px;
+}
+#footer_info img{
+    float: left;
+}
+#footer_info table{
+    float: right;
+    width: 540px;
+    border-collapse: separate;
+    border-spacing: 30px 8px;
+}
+#footer_info table th{
+    font-size: 14px;
+    text-align: left;
+    color: #fff;
+    padding: 5px 0;
+    border-bottom: 1px dashed #858585;
+}
+/*#footer_info table th.aboutus{
+    width: 188px;
+}
+#footer_info table th.function{
+    width: 120px;
+}
+#footer_info table th.back{
+    width: 130px;
+}*/
+#footer_info table td a{
+    color: #858585;
+}
+#footer_info table td a:hover{
+    color: #c7c7c7;
+}
+#footer_bottom{
+    width: 100%;
+    height: 4px;
+    background: url(../img/footer.jpg);
+}
+/*the end of the footer*/

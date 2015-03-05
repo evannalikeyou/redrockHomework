@@ -1,0 +1,69 @@
+#header_content ul li.rank a{
+    background: #c00202;
+}
+#main{
+	width: 940px;
+	margin: 0 auto;
+}
+#main:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#main h1{
+	font-family: "Audiowide";
+	font-size: 30px;
+	color: #c00202;
+	padding: 26px 0 4px 0;
+	border-bottom: 1px solid #d3abab;
+}
+#main table{
+	width: 840px;
+	margin: 20px auto;
+	text-align: center;
+}
+#main table th{
+	font-size: 18px;
+	height: 30px;
+}
+#main table td{
+	font-size: 14px;
+	height: 54px;
+	font-family: "Microsoft YaHei UI";
+}
+#main table tr td{
+	border-top: 1px solid #bebebe;
+}
+#main table tr.oddrank{
+	background: #eeeeee;
+}
+#main table tr td.other_rank{
+	font-size: 20px;
+	font-family: "Audiowide";
+}
+#page_list{
+	margin: 30px 40px;
+}
+#page_list ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#page_list li {
+	float: left;
+	text-align: center;
+	font-size: 18px;
+}
+#page_list li a {
+	display: inline-block;
+	padding: 12px 9px 0 9px;
+	color: #3f3f3f;
+	vertical-align: bottom;
+}
+#page_list li span{
+	display: inline-block;
+	font-size: 30px;
+	vertical-align: bottom;
+	padding: 0 9px;
+	color: #c00202;
+}
